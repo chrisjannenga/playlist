@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: ;
+}
+
+.topBar {
+  width: 100vw;
+  height: 5vh;
+  background-color: #9B9B8C;
+  position: fixed;
+  top: 0;
+  border-bottom: solid 1px black;
+  display: inline-block;
+}
+
+.topBarPlaylist {
+  width: 100vw;
+  height: 10vh;
+  background-color: #9B9B8C;
+  position: fixed;
+  top: 0;
+  border-bottom: solid 1px black;
+  display: inline-block;
+}
+
+.topText {
+  color: white;
+  font-size: 2em;
+  text-align: left;
+  padding-left: 10vw;
+  padding-top: 2vh;
+}
+
+.bottomBar {
+  width: 100vw;
+  height: 5vh;
+  background-color: #686859;
+  position: fixed;
+  bottom: 0;
+  display: inline-block;
+}
+
+.footerText {
+  color: white;
+  font-size: 2em;
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.content {
+  height: 90vh;
+  width: 100vw;
+  margin-top: 5vh;
+  background-color: #EEEEEE;
+  display: inline-block;
+}
+
+.contentPlaylist {
+  height: 90vh;
+  width: 100vw;
+  margin-top: 10vh;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.left {
+  height: inherit;
+  width: 50vw;
+  display: inline-block;
+  background-color: inherit;
+}
+
+.leftWrapper {
+  height: inherit;
+  width: 50vw;
+  display: inline-block;
+  background-color: inherit;
+}
+
+.leftButton {
+  position: relative;
+  margin-left: 40%
+}
+
+.splashTitle {
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 40%;
+}
+
+.right {
+  height: inherit;
+  width: 50vw;
+  display: inline-block;
+  background-image: url(resources/track.fw.png);
+  background-size: cover;
+  opacity: 0.19;
+  float: right;
+}
+
+.albumCoverScroll {
+  width: 100vw;
+  height: 20vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#albumCoverScroll {
+  width: 200vw;
+  height: 20vh;
+  overflow: auto;
+}
+
+.collectedData {
+  width: 80vw;
+  height: 35vh;
+  background-color: #eeeeee;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  border: solid 2px black;
+}
+
+.buttonBar {
+  width: 80vw;
+  height: 5vh;
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+
+#clearTracks {
+  background-color: #686859;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+#clearTracks:hover {
+  background-color: #eeeeee;
+  color: black;
+  border: solid 1px #686859;
+}
+
+#submitBin {
+  background-color: #686859;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+#submitBin:hover {
+  background-color: #eeeeee;
+  color: black;
+  border: solid 1px #686859;
+}
+
+#chooseTracks {
+  background-color: #686859;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+#chooseTracks:hover {
+  background-color: #eeeeee;
+  color: black;
+  border: solid 1px #686859;
+}
