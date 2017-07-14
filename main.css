@@ -55,6 +55,7 @@
 }
 
 .content {
+  position: relative;
   height: 90vh;
   width: 100vw;
   margin-top: 5vh;
@@ -96,12 +97,50 @@
 }
 
 .right {
+  /*position: relative;*/
   height: inherit;
   width: 50vw;
   display: inline-block;
   background-image: url(resources/track.fw.png);
   background-size: cover;
   opacity: 0.19;
+  float: right;
+  z-index: ;
+}
+
+
+/*.right::before {
+  position: ;
+  height: inherit;
+  width: 50vw;
+  display: inline-block;
+  background-image: url(resources/track.fw.png);
+  background-size: cover;
+  opacity: 0.19;
+  float: right;
+  z-index: ;
+}*/
+
+.rightWrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background-image: url(resources/track.fw.png);
+  background-size: cover;
+  opacity: 0.19;*/
+  height: inherit;
+  width: 50vw;
+  display: inline-block;
+  /*background-color: inherit;*/
+  z-index: +1;
+}
+
+.rightImgs {
+  width: 50vw;
+  background-color: green;
+  height: auto;
   float: right;
 }
 
@@ -189,4 +228,22 @@
   background-color: #eeeeee;
   color: black;
   border: solid 1px #686859;
+}
+
+#randImage {
+  float: right;
+  padding-right: 20vw;
+  padding-top: 3vh;
+}
+
+#randImage1 {
+  float: right;
+  padding-right: 20vw;
+  padding-top: 3vh;
+}
+
+#randImage2 {
+  float: right;
+  padding-right: 20vw;
+  padding-top: 3vh;
 }

@@ -3,12 +3,13 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Plalist Project</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <title>Playlist Project</title>
     <link rel="stylesheet" href="main.css">
     <script src="app.js" charset="utf-8"></script>
   </head>
 
-  <body>
+  <body onload="getRandomImage(), getRandomImage1(), getRandomImage2()">
     <div class="container">
       <div class="topBar">
       </div>
@@ -24,7 +25,18 @@
           </div>
         </div>
         <div class="right">
+          <div class="rightWrapper">
+          </div>
+          <div id="randImage">
+          </div>
+          <div id="randImage1">
+          </div>
+          <div id="randImage2">
+          </div>
         </div>
+
+
+
         <div class="bottomBar">
           <p class="footerText">&copy; Chris Jannenga 2017</p>
         </div>
